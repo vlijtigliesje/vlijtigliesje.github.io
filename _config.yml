@@ -1,0 +1,12 @@
+# Site settings
+title: Vlijtig Liesje
+email: vlijtigliesje@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welkom bij Vlijtig Liesje retouches. Ik herstel en pas kledij aan.
+  Van het aannaaien van een knoop of het herstellen van een scheur of gaatje tot
+  het inkorten van mouwen of zomen, je kunt ervoor bij mij terecht.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://vlijtigliesjeretouches.be" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
