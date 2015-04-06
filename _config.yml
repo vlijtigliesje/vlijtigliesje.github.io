@@ -10,3 +10,6 @@ url: "http://vlijtigliesjeretouches.be" # the base hostname & protocol for your 
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
