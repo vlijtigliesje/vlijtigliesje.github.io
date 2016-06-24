@@ -21,15 +21,34 @@ layout: default
             </ul>
         </adress>
         <p><a href="/locatie.html">Klik hier voor een routebeschrijving.</a></p>
-        <p>
-            <strong>Wanneer kan je me het beste bereiken?</strong>
-            <dl>
-                <dt>Maandag, woensdag, donderdag en vrijdag:</dt>
-                <dd>Tussen 8:00 en 9:00 of tussen 19:00 en 21:00.</dd>
-                <dt>Dinsdag:</dt>
-                <dd>Tussen 8:00 en 9:00.</dd>
-            </dl>
-        </p>
+        <h2>Geef een zelfgemaakt geschenk</h2>
+        <p>Deze handgemaakte hebbedingetjes zijn altijd leuk als geschenk, of gewoon voor jezelf. Neem contact op voor meer informatie.</p>
+        <div class="row">
+            <div class="small-6 large-4 columns">
+                <img src="/img/producten/product1.jpg" alt="">
+                <strong>Warmtekussentje</strong>
+            </div>
+            <div class="small-6 large-4 columns">
+                <img src="/img/producten/product2.jpg" alt="" class="hoverable">
+                <strong>Verschoningsmatje</strong>
+            </div>
+            <div class="small-6 large-4 columns">
+                <img src="/img/producten/product3.jpg" alt="" class="hoverable">
+                <strong>Breinaaldenrol</strong>
+            </div>
+            <div class="small-6 large-4 columns">
+                <img src="/img/producten/product4.jpg" alt="">
+                <strong>Pennenzak</strong>
+            </div>
+            <div class="small-6 large-4 columns">
+                <img src="/img/producten/product5.jpg" alt="">
+                <strong>Piramidezakje</strong>
+            </div>
+            <div class="small-6 large-4 columns end">
+                <img src="/img/producten/product6.jpg" alt="" class="hoverable">
+                <strong>Tasje</strong>
+            </div>
+        </div>
     </div>
     <div class="small-12 large-4 columns">
         <p class="text-center hide-for-large-up call-to-action">
@@ -71,3 +90,19 @@ layout: default
         <p>Vul het bovenstaande formulier in, of stuur een email naar <a href="mailto:vlijtigliesjeretouches@gmail.com">vlijtigliesjeretouches@gmail.com</a>.</p>
     </div>
 </div>
+<script>
+var hoverables = document.querySelectorAll(".hoverable");
+for(var i=0; i<hoverables.length; i++){
+    (function(){
+        var img = hoverables[i];
+        img.addEventListener("mouseenter", function(){
+            var me = img;
+            me.src = me.src.split(".")[0] + "b.jpg";
+        });
+        img.addEventListener("mouseleave", function(){
+            var me = img;
+            me.src = me.src.split(".")[0].slice(0,-1) + ".jpg";
+        });
+    })();
+}
+</script>
