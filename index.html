@@ -97,12 +97,12 @@ for(var i=0; i<hoverables.length; i++){
         var img = hoverables[i];
         img.addEventListener("mouseenter", function(){
             var me = img;
-            me.src = me.src.split(".")[0] + "b.jpg";
+            me.src = me.getAttribute("src").split(".")[0] + "b.jpg";
             ga('send', 'event', 'image', 'hover', me.src);
         });
         img.addEventListener("mouseleave", function(){
             var me = img;
-            me.src = me.src.split(".")[0].slice(0,-1) + ".jpg";
+            me.src = me.getAttribute("src").split(".")[0].slice(0,-1) + ".jpg";
         });
     })();
 }
