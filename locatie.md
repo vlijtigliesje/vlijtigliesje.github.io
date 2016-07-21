@@ -31,7 +31,7 @@ src="https://www.google.com/maps/embed/v1/directions?origin=helchteren%20kruispu
 var form = document.getElementById("richting");
 form.addEventListener("submit", function(e){
 	e.preventDefault();
-	var key = "AIzaSyChAbfCxkoLZcilvMM9Tok2kMQcNikoNLw";
+	var key = "AIzaSyC26Ly-xwS3GwGhL-sHNQvGCjRB7D3TTzQ	";
 	var origin = encodeURIComponent(document.getElementById("address").value);
 	
 	var src = "https://www.google.com/maps/embed/v1/directions?origin=" + origin + "&destination=Zandstraat%2029%2C%20Houthalen-Helchteren%2C%20Belgium&key=" + key;
