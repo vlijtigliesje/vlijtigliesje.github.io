@@ -10,7 +10,7 @@ permalink: /locatie.html
 		<h1> Locatie </h1>
 		<div class="flex-video">
 		<iframe width="600" height="450" frameborder="0" style="border:0" id="map"
-src="https://www.google.com/maps/embed/v1/directions?origin=helchteren%20kruispunt&destination=Zandstraat%2029%2C%20Houthalen-Helchteren%2C%20Belgium&key=AIzaSyChAbfCxkoLZcilvMM9Tok2kMQcNikoNLw"></iframe>
+src="https://www.google.com/maps/embed/v1/directions?origin=helchteren%20kruispunt&destination=Zandstraat%2029%2C%20Houthalen-Helchteren%2C%20Belgium&key=AIzaSyC26Ly-xwS3GwGhL-sHNQvGCjRB7D3TTzQ"></iframe>
 		</div>
 	</div>
 </div>
